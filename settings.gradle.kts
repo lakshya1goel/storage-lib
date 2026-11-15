@@ -27,3 +27,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Storage SDK"
 include(":app")
+include(":storage-core")
+include(":storage-shared-preferences")
