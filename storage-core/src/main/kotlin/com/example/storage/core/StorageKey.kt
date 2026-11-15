@@ -1,5 +1,8 @@
 package com.example.storage.core
 
-data class StorageKey<T>(
-    val name: String
+import kotlin.reflect.KClass
+
+data class StorageKey<T : Any>(
+    val name: String,
+    val valueClass: KClass<T>
 )

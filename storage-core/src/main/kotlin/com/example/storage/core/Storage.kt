@@ -2,12 +2,12 @@ package com.example.storage.core
 
 interface Storage {
 
-    suspend fun <T> put(
+    suspend fun <T : Any> put(
         key: StorageKey<T>,
         value: T
     )
 
-    suspend fun <T> get(
+    suspend fun <T : Any> get(
         key: StorageKey<T>
     ): T?
 
