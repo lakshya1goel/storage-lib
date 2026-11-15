@@ -15,4 +15,5 @@ android {
 
 dependencies {
     implementation(project(":storage-core"))
+    implementation(libs.androidx.core.ktx)
 }
