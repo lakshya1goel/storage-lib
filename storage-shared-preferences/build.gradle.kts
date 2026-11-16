@@ -16,7 +16,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":storage-core"))
+    api(project(":storage-core"))
     implementation(libs.androidx.core.ktx)
 
     // Instrumentation testing
