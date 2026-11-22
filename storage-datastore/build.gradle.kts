@@ -16,6 +16,7 @@ android {
 
 dependencies {
     api(project(":storage-core"))
-
     implementation(libs.androidx.datastore.preferences)
+    androidTestImplementation("androidx.test:runner:1.7.0")
+    androidTestImplementation(libs.androidx.junit)
 }
