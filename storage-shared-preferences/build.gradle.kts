@@ -26,4 +26,5 @@ dependencies {
 
     // To execute suspend functions in tests
     androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    androidTestImplementation(project(":storage-testing"))
 }

@@ -19,4 +19,5 @@ dependencies {
     implementation(libs.androidx.datastore.preferences)
     androidTestImplementation("androidx.test:runner:1.7.0")
     androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(project(":storage-testing"))
 }
